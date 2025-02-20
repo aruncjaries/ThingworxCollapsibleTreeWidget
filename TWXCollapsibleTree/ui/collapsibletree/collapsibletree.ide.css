@@ -1,0 +1,9 @@
+/* Place custom CSS styling for CollapsibleTree widget in Composer in this file */
+
+.collapsibletree-svg {
+	background-color: #f4f4f4;
+	border: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

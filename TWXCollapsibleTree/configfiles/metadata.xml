@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+	<ExtensionPackages>
+		<ExtensionPackage
+			dependsOn=""
+			description="This extension was built based on the D3 Collapsible Tree source, by an Accenture employee - Arun C"
+			haCompatible="false"
+			minimumThingWorxVersion="9.3.0"
+			name="TWXCollapsibleTree"
+			packageVersion="1.0.0"
+			vendor="Accenture"></ExtensionPackage>
+	</ExtensionPackages>
+	<Widgets>
+		<Widget
+			name="collapsibletree">
+			<UIResources>
+				<FileResource
+					description="Basice Collapsible Tree Widget"
+					file="collapsibletree.ide.js"
+					isDevelopment="true"
+					isRuntime="false"
+					type="JS"></FileResource>
+				<FileResource
+					description="Basice Collapsible Tree Widget"
+					file="collapsibletree.ide.css"
+					isDevelopment="true"
+					isRuntime="false"
+					type="CSS"></FileResource>
+				<FileResource
+					description="Basice Collapsible Tree Widget"
+					file="collapsibletree.runtime.js"
+					isDevelopment="false"
+					isRuntime="true"
+					type="JS"></FileResource>
+				<FileResource
+					description="Basice Collapsible Tree Widget"
+					file="collapsibletree.runtime.css"
+					isDevelopment="false"
+					isRuntime="true"
+					type="CSS"></FileResource>
+				<FileResource
+					description="D3 Library"
+					file="/d3Library/d3.v7.min.js"
+					isDevelopment="false"
+					isRuntime="true"
+					type="JS"></FileResource>
+			</UIResources>
+		</Widget>
+	</Widgets>
+</Entities>
