@@ -12,7 +12,6 @@ TW.Runtime.Widgets.collapsibletree = function() {
 
 	// Function called after the widget is rendered in the DOM
 	this.afterRender = function() {
-		console.log("Initializing afterRender: ", this);
 		var self = this;
 
 		// Define values to pass to the afterRender function
@@ -23,7 +22,6 @@ TW.Runtime.Widgets.collapsibletree = function() {
 
 		var widgetContentDiv = widgetInstance.jqElement.find(".widget-content .widget-collapsibletree");
 		widgetContentDiv.addClass(customClass); // Add custom class
-		console.log("Widget Content Div: ", widgetContentDiv);
 		// Apply background color and secondary background color to the widget content div
 		widgetInstance.jqElement.css({
 			"background-color": styleDefinition.backgroundColor || "#ffffff",
@@ -87,7 +85,6 @@ TW.Runtime.Widgets.collapsibletree = function() {
 		// Recalculate width
 		var width = Math.min(this.jqElement[0].getBoundingClientRect().width, 1200);
 		width = width - 30;
-		console.log("Calculated Width: ", width);
 
 		// Get updated expand count
 		var initialExpandCount = expandCount;

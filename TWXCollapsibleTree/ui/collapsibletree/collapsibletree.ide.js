@@ -101,7 +101,7 @@ TW.IDE.Widgets.collapsibletree = function() {
 			let height = dimensions.height;
 
 			// Log the width and height for debugging
-			console.log("Widget dimensions (width, height):", { width, height });
+			//console.log("Widget dimensions (width, height):", { width, height });
 
 			// Check if width and height are valid
 			if (isNaN(width) || width <= 0 || isNaN(height) || height <= 0) {
@@ -128,7 +128,7 @@ TW.IDE.Widgets.collapsibletree = function() {
 				let imgY = (height - imgHeight) / 3; // Center vertically
 
 				// Log the calculated position for debugging
-				console.log("Calculated image position:", { imgX, imgY });
+				//console.log("Calculated image position:", { imgX, imgY });
 
 				// Set the image's position inside the SVG
 				img.setAttribute("x", imgX);
