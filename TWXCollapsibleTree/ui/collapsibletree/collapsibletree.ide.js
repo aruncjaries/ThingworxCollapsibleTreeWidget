@@ -1,6 +1,4 @@
 TW.IDE.Widgets.collapsibletree = function() {
-	var LeafNodeClickedValue = ""
-
 	this.widgetIconUrl = function() {
 		return "../Common/extensions/TWXCollapsibleTree/ui/collapsibletree/CollapsibleTree16.ide.png";
 	};
@@ -92,11 +90,12 @@ TW.IDE.Widgets.collapsibletree = function() {
 	};
 
 	this.resize = function() {
-		let svg = document.querySelector(".collapsibletree-svg");
+		let container = this.jqElement;
+		let svg = container.find(".collapsibletree-svg")[0];
 
 		if (svg) {
 			// Get the width and height using getBoundingClientRect
-			let dimensions = svg.getBoundingClientRect();
+			let dimensions = container[0].getBoundingClientRect();
 			let width = dimensions.width;
 			let height = dimensions.height;
 
@@ -109,8 +108,8 @@ TW.IDE.Widgets.collapsibletree = function() {
 				return; // Exit if dimensions are invalid
 			}
 
-			let img = svg.querySelector("image");
-			let text = svg.querySelector(".image-label");
+			let img = container.find("image")[0];
+			let text = container.find(".image-label")[0];
 
 			if (img && text) {
 				let imgWidth = 75;  // Image width is 75 units
@@ -189,7 +188,4 @@ TW.IDE.Widgets.collapsibletree = function() {
 			self.observerInstance.observe(targetNode, { attributes: true, childList: true, subtree: false });
 		}
 	};
-
-
-
 };
