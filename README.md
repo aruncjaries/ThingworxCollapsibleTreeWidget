@@ -70,7 +70,8 @@ The widget expects a JSON structure similar to:
    - Refer the sample data in the Thing *ACC_CollapsibleTree_TH* and configure properties as mentioned in sample file.
  ### Runtime Sample View 
  ![TWXCollapsible TreeWidget-Pic](SampleEntities/TWXCollapsible TreeWidget-Pic.png)
- [Download and watch the video](SampleEntities/TWXCollapsible TreeWidget-Video.mp4)
+ 
+ [Download and watch the video](SampleEntities/TWXCollapsibleTreeWidget-Video.mp4)
         
 # Authors
 **Arun Chinnusamy** - Accenture - Industry X Team, Bangalore
