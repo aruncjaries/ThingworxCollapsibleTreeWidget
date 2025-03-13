@@ -32,23 +32,44 @@ The widget expects a JSON structure similar to:
 ```json
 {
   "name": "Root",
+  "value": "Root Value",
   "children": [
     {
       "name": "Child 1",
+      "value": "Child Value 1",
       "children": [
-        { "name": "Leaf 1" },
-        { "name": "Leaf 2" }
+        {
+          "name": "Leaf 1",
+          "value": "Leaf Value 1"
+        },
+        {
+          "name": "Leaf 2",
+          "value": "Leaf Value 2"
+        }
       ]
     },
     {
-      "name": "Child 2" }
+      "name": "Child 2",
+      "value": "Child Value 2"
+    }
   ]
 }
 ```
 ### Events
 - **LeafNodeClicked**: Triggered when a leaf node is clicked.
 - **NodeClicked**: Triggered when any node (leaf or non-leaf) is clicked.
-
+  
+## Sample
+1. **Download the Sample file**
+   - Locate the XML file at `SampleEntities/CollapsibleTreeWidgetEntities.xml`.
+2. **Import into ThingWorx**
+   - Navigate to *ThingWorx Composer* > *Import/Export* > *Import*.
+   - Select `CollapsibleTreeWidgetEntities.xml` and import it.
+3. **View/Edit the Sample Mashup**
+   - View the mashup *ACC_CollapsibleTree_MU*.
+   - Refer the sample data in the Thing *ACC_CollapsibleTree_TH* and configure properties as mentioned in sample file.
+ ### Runtime Sample View 
+        
 # Authors
 **Arun Chinnusamy** - Accenture - Industry X Team, Bangalore
 
