@@ -69,6 +69,8 @@ The widget expects a JSON structure similar to:
    - View the mashup *ACC_CollapsibleTree_MU*.
    - Refer the sample data in the Thing *ACC_CollapsibleTree_TH* and configure properties as mentioned in sample file.
  ### Runtime Sample View 
+ ![TWXCollapsible TreeWidget-Pic](SampleEntities/TWXCollapsible TreeWidget-Pic.png)
+ [Download and watch the video](SampleEntities/TWXCollapsible TreeWidget-Video.mp4)
         
 # Authors
 **Arun Chinnusamy** - Accenture - Industry X Team, Bangalore
@@ -94,7 +96,7 @@ The author has not committed to maintain this code and he may not be bound to ma
 
 
 # License
-I accept the MIT License (https://opensource.org/licenses/MIT) and agree that any software downloaded/utilized will be in compliance with that Agreement. However, despite anything to the contrary in the License Agreement, I agree as follows:
+I accept the [MIT License](https://opensource.org/licenses/MIT) and agree that any software downloaded/utilized will be in compliance with that Agreement. However, despite anything to the contrary in the License Agreement, I agree as follows:
 
 I acknowledge that I am not entitled to support assistance with respect to the software, and PTC will have no obligation to maintain the software or provide bug fixes or security patches or new releases.
 
